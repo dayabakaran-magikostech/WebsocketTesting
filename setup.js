@@ -414,7 +414,7 @@ const instrumentObj = {
 		1900
 	  ]
 	},
-	'16381442': {
+	'12327426': {
 	  type: 'FUT',
 	  symbol: 'HDFCBANK23JANFUT',
 	  ltp: 0,
@@ -937,5 +937,6 @@ const instrumentObj = {
 config.instruments = instruments;
 config.tickObject = tickObject;
 config.instrumentObj = instrumentObj;
+config.counter = 0;
 
 exports.config = config;
